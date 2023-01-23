@@ -1,0 +1,64 @@
+@media screen and (max-width: 889px) {
+  .columns-area__panels__pane--navigational .navigation-panel {
+    height: 40px;
+    max-height: 40px;
+    overflow-y: hidden;
+  }
+
+  .colums,
+  .columns-area__panels__pane__inner {
+    height: auto;
+  }
+
+  .navigation-panel:before {
+    content: "　";
+    background-image: url("/packs/media/images/logo-d4b5dc90fd3e117d141ae7053b157f58.svg");
+    width: 26px;
+    height: 26px;
+    line-height: 23px;
+    background-size: 22px;
+    background-repeat: no-repeat;
+    margin-right: 15px;
+    margin-top: 8px;
+    margin-left: 15px;
+    text-align: center;
+  }
+
+  .columns-area__panels__pane--navigational {
+    position: fixed;
+    top: 6px;
+    left: 0px;
+    z-index: 4;
+  }
+
+  .ui__header__logo {
+    display: none;
+  }
+
+  .ui__header {
+    justify-content: right;
+  }
+  .columns-area__panels .columns-area__panels__main {
+    width: 100%;
+  }
+
+  .ui__header__logo {
+    padding-left: 60px;
+  }
+
+  .columns-area__panels__pane--navigational .navigation-panel:hover {
+    height: 100vh;
+    max-height: 100vh;
+    border-right: 1px solid rgba(255, 255, 255, 0.4);
+    box-shadow: 0px 5px 5px black;
+  }
+
+  .columns-area__panels__pane--navigational .navigation-panel:active {
+    height: 100vh;
+    max-height: 100vh;
+  }
+
+  .status p {
+    font-size: 18px;
+  }
+}
